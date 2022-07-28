@@ -29,7 +29,7 @@ const computeExpensiveValue = (count) => {
     // Display on console whenever the function gets call
     console.log("This function is running...")
     // Time Consuming Calcuation
-    for (let i = 0; i < 10000000; i++) {
+    for (let i = 0; i < 1000000000; i++) {
         count += 1;
     }
     return count;
